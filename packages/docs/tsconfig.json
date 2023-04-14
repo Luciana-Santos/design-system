@@ -1,0 +1,4 @@
+{
+  "extends": "@lucianadss-ui/ts-config/react.json",
+  "include": ["src"]
+}
