@@ -1,11 +1,11 @@
+import { Box, BoxProps, Text } from '@lucianadss-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
-import { Box, BoxProps, Text } from '@ignite-ui/react'
 
 export default {
   title: 'Surfaces/Box',
   component: Box,
   args: {
-    children: <Text>Testando o elemento Box</Text>,
+    children: <Text>Box element.</Text>,
   },
   argTypes: {
     children: {

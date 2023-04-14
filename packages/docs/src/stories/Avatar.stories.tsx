@@ -1,12 +1,12 @@
+import { Avatar, AvatarProps } from '@lucianadss-ui/react'
 import type { Meta, StoryObj } from '@storybook/react'
-import { Avatar, AvatarProps } from '@ignite-ui/react'
 
 export default {
   title: 'Data display/Avatar',
   component: Avatar,
   args: {
-    src: 'https://github.com/diego3g.png',
-    alt: 'Diego Fernandes',
+    src: 'https://github.com/luciana-santos.png',
+    alt: 'Luciana Santos',
   },
   argTypes: {
     src: {
