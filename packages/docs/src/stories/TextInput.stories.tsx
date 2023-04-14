@@ -1,10 +1,10 @@
-import { Meta, StoryObj } from '@storybook/react'
-
-import { Box, Text, TextInput, TextInputProps } from '@lucianadss-ui/react'
+import type { Meta, StoryObj } from '@storybook/react'
+import { Box, Text, TextInput, TextInputProps } from '@ignite-ui/react'
 
 export default {
-  title: 'Form/TextInput',
+  title: 'Form/Text Input',
   component: TextInput,
+  args: {},
   decorators: [
     (Story) => {
       return (
@@ -26,14 +26,15 @@ export const Primary: StoryObj<TextInputProps> = {
   },
 }
 
-export const WithPrefix: StoryObj<TextInputProps> = {
-  args: {
-    prefix: 'cal.com/',
-  },
-}
-
 export const Disabled: StoryObj<TextInputProps> = {
   args: {
     disabled: true,
+  },
+}
+
+export const WithPrefix: StoryObj<TextInputProps> = {
+  args: {
+    prefix: 'cal.com/',
+    placeholder: 'your-username',
   },
 }

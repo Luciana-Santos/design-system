@@ -1,8 +1,6 @@
+import type { Meta, StoryObj } from '@storybook/react'
+import { Button, ButtonProps } from '@ignite-ui/react'
 import { ArrowRight } from 'phosphor-react'
-
-import { Meta, StoryObj } from '@storybook/react'
-
-import { Button, ButtonProps } from '@lucianadss-ui/react'
 
 export default {
   title: 'Form/Button',
@@ -11,6 +9,7 @@ export default {
     children: 'Send',
     variant: 'primary',
     size: 'md',
+    disabled: false,
   },
   argTypes: {
     variant: {
@@ -30,15 +29,13 @@ export default {
         type: 'boolean',
       },
     },
-    onClick: {
-      action: 'click',
-    },
+    onClick: { action: 'clicked' },
   },
 } as Meta<ButtonProps>
 
 export const Primary: StoryObj<ButtonProps> = {}
 
-export const Secodanry: StoryObj<ButtonProps> = {
+export const Secondary: StoryObj<ButtonProps> = {
   args: {
     variant: 'secondary',
     children: 'Create new',
@@ -62,7 +59,7 @@ export const WithIcon: StoryObj<ButtonProps> = {
   args: {
     children: (
       <>
-        Next step
+        Próximo passo
         <ArrowRight weight="bold" />
       </>
     ),

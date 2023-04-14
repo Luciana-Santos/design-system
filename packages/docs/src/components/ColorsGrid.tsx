@@ -1,11 +1,11 @@
-import { colors } from '@lucianadss-ui/tokens'
+import { colors } from '@ignite-ui/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {
   return Object.entries(colors).map(([key, color]) => {
     return (
       <div key={key} style={{ backgroundColor: color, padding: '2rem' }}>
-        <p
+        <div
           style={{
             display: 'flex',
             justifyContent: 'space-between',
@@ -15,7 +15,7 @@ export function ColorsGrid() {
         >
           <strong>${key}</strong>
           <span>{color}</span>
-        </p>
+        </div>
       </div>
     )
   })

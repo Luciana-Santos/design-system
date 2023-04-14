@@ -3,22 +3,23 @@ import { styled } from '../styles'
 
 export const Heading = styled('h2', {
   fontFamily: '$default',
-  lineHeight: '$short',
+  lineHeight: '$shorter',
   margin: 0,
   color: '$gray100',
 
   variants: {
     size: {
-      am: { fontSize: '$xl' },
+      sm: { fontSize: '$xl' },
       md: { fontSize: '$2xl' },
       lg: { fontSize: '$4xl' },
-      '2lg': { fontSize: '$5xl' },
-      '3lg': { fontSize: '$6xl' },
-      '4lg': { fontSize: '$7xl' },
-      '5lg': { fontSize: '$8xl' },
-      '6lg': { fontSize: '$9xl' },
+      '2xl': { fontSize: '$5xl' },
+      '3xl': { fontSize: '$6xl' },
+      '4xl': { fontSize: '$7xl' },
+      '5xl': { fontSize: '$8xl' },
+      '6xl': { fontSize: '$9xl' },
     },
   },
+
   defaultVariants: {
     size: 'md',
   },

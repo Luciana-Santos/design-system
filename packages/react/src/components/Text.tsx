@@ -24,6 +24,7 @@ export const Text = styled('p', {
       '9xl': { fontSize: '$9xl' },
     },
   },
+
   defaultVariants: {
     size: 'md',
   },

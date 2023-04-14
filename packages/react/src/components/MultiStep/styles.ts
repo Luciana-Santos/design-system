@@ -21,12 +21,12 @@ export const Steps = styled('div', {
 export const Step = styled('div', {
   height: '$1',
   borderRadius: '$px',
-  background: '$gray600',
+  backgroundColor: '$gray600',
 
   variants: {
     active: {
       true: {
-        background: '$gray100',
+        backgroundColor: '$gray100',
       },
     },
   },
