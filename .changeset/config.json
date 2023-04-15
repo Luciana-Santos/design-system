@@ -7,5 +7,5 @@
   "access": "public",
   "baseBranch": "main",
   "updateInternalDependencies": "patch",
-  "ignore": ["@ignite-ui/docs"]
+  "ignore": ["@lucianadss-ui/docs"]
 }
