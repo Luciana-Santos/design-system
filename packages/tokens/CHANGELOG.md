@@ -1,5 +1,11 @@
 # @lucianadss-ui/tokens
 
+## 3.0.0
+
+### Major Changes
+
+- Packages names updated
+
 ## 2.0.0
 
 ### Major Changes
