@@ -6,7 +6,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@lucianadss-ui/tokens'
+} from '@luciana-santos-ui/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {
