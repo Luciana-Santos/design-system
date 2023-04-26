@@ -1,5 +1,5 @@
 {
-  "name": "@lucianadss-ui/tokens",
+  "name": "@luciana-santos-ui/tokens",
   "version": "2.0.0",
   "description": "",
   "main": "./dist/index.js",
@@ -14,8 +14,8 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@lucianadss-ui/ts-config": "*",
-    "@lucianadss-ui/eslint-config": "*",
+    "@luciana-santos-ui/ts-config": "*",
+    "@luciana-santos-ui/eslint-config": "*",
     "tsup": "^6.2.3",
     "typescript": "^4.8.4"
   }

@@ -1,5 +1,5 @@
 {
-  "name": "@lucianadss-ui/react",
+  "name": "@luciana-santos-ui/react",
   "version": "1.0.1",
   "description": "",
   "main": "./dist/index.js",
@@ -14,9 +14,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@lucianadss-ui/eslint-config": "*",
-    "@lucianadss-ui/tokens": "*",
-    "@lucianadss-ui/ts-config": "*",
+    "@luciana-santos-ui/eslint-config": "*",
+    "@luciana-santos-ui/tokens": "*",
+    "@luciana-santos-ui/ts-config": "*",
     "@types/react": "^18.0.21",
     "@types/react-dom": "^18.0.6",
     "react": "^18.2.0",
