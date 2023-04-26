@@ -1,0 +1,2 @@
+import{A as t}from"./index.f8bc3a3a.js";import"./index.9dee6c64.js";import"./iframe.ccbe7560.js";import"./index.a2ecb292.js";import"./jsx-runtime.26500e63.js";const c={title:"Data display/Avatar",component:t,args:{src:"https://github.com/luciana-santos.png",alt:"Luciana Santos"},argTypes:{src:{control:{type:"text"}}}},n={},p={args:{src:void 0}},m=["Primary","WithFallback"];export{n as Primary,p as WithFallback,m as __namedExportsOrder,c as default};
+//# sourceMappingURL=Avatar.stories.f29227ff.js.map
