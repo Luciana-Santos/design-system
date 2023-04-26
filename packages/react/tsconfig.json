@@ -1,4 +1,4 @@
 {
-  "extends": "@lucianadss-ui/ts-config/react.json",
+  "extends": "@luciana-santos-ui/ts-config/react.json",
   "include": ["src"]
 }
